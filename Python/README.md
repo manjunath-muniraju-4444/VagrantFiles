@@ -4,9 +4,9 @@ Language : Python
 Language Version : 2, 2.7, 3 and 3.4
 Development Env :  virtualenv 15.1.0
 
-Hot to create virtual environment for a project
+--- How to create virtual environment for a Project. ---
 
-$ cd <path_to_project_root_folder>
+$ cd <folder_path_to_project>
 
 $ virtualenv <virtualenv_name>
             OR

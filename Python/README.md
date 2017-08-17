@@ -10,5 +10,15 @@ $ cd <folder_path_to_project>
 
 $ virtualenv <virtualenv_name>
             OR
-$ virtualenv -p /usr/bin/pythonX.X <virtualenv_name> // Assuming path to python compiler is /usr/bin/, if not sure about path   
-                                                     // use "which pythonX.X" [where X.X => version Number] ```
+$ virtualenv -p /usr/bin/pythonX.X <virtualenv_name> // Assuming path to python compiler is /usr/bin/, 
+                                                    // if not sure about path use "which pythonX.X" 
+                                                    // [where X.X => version Number]
+
+Activate / Enable Virtual Environment
+$ source <folder_path_to_project>/<virtualenv_name>/bin/activate
+                                    OR
+$ cd <folder_path_to_project>
+$ source ./<virtualenv_name>/bin/activate
+
+Deactivate / disable
+$ deactivate

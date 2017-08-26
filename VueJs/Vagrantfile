@@ -81,5 +81,8 @@ Vagrant.configure("2") do |config|
      source $HOME/.nvm/nvm.sh
      nvm install 6.11.1
      npm install --global vue-cli
+     sudo locale-gen en_IN
+     sudo apt-get upgrade -y
+     sudo apt-get autoremove -y
    SHELL
 end
